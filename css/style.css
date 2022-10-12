@@ -1,0 +1,221 @@
+/* To all */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1F603E;
+    color: white;
+    border-bottom: 2px solid black;
+    z-index: 100;
+}
+
+.navbar-link {
+    margin-left: 50%;
+}
+
+.nav-logo {
+    width: 300px;
+}
+
+.nav-hover {
+    color: #1F603E;
+}
+
+.nav-hover:hover {
+    font-size: larger;
+}
+
+.icons-bars {
+    color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1F603E;
+    color: white;
+}
+
+.jumbotron img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 70px;
+}
+
+.jumbotron-button {
+    background-color: #0093AB;
+    color: white;
+    padding: 12px;
+    border-radius: 17px;
+    text-decoration: none;
+    font-size: 25px;
+    transition-duration: 1.2s;
+}
+
+.jumbotron-button:hover {
+    background-color: white;
+    color: #1F603E;
+}
+
+/* About */
+
+.about-text h2 {
+    color: #1F603E;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Ciputra Dream */
+.card {
+    background-color: #1F603E;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Director's Welcome */
+.dw-image {
+    border-radius: 50%;
+}
+
+/* Vision, Mission, and School Culture */
+.vms-img {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* Academic */
+.academic {
+    margin-top: 200px;
+}
+
+.academic-text {
+    text-align: center;
+    color: white;
+    background-color: #1F603E;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-bottom: 70px;
+}
+
+.poe-image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.poe-list {
+    list-style: decimal;
+}
+
+.k-12 {
+    width: 900px;
+}
+
+.curriculum {
+    width: 900px;
+}
+
+/* Galery */
+.galery {
+    background-color: #080D47;
+}
+
+.galery-text {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.galery-button {
+    background-color: #1F603E;
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1.3s;
+    border-radius: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F603E;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+}
+
+/* @Media Screen */
+
+@media screen and (max-width: 1024px) {
+    .navbar-link {
+        margin-left: 25%;
+    }
+
+    .k-12 {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .academic-excelence {
+        width: 500px;
+    }
+
+    .k-12 {
+        width: 500px;
+    }
+
+    .curriculum {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .k-12 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-logo {
+        width: 200px;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .k-12 {
+        width: 300px;
+    }
+
+    .academic-excelence {
+        width: 200px;
+    }
+
+    .galery-image1,
+    .galery-image2,
+    .galery-image3 {
+        width: 300px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .vms-img {
+        width: 200px;
+    }
+}
